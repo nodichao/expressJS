@@ -1,0 +1,22 @@
+
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="/style.css")
+    body 
+         include header
+         h1(style='text-align:center;') Joe Master Communication 
+            span(style='color:red') JMC
+         div.form
+                form
+                    div
+                       label votre email 
+                          input.email(type="email",placeholder="Entrez votre email")
+                    div
+                        
+                           textarea(name="myMessage", cols="30", rows="10") Redigez votre message
+                    div 
+                       button.button(type="button") Envoyer
+         include footer

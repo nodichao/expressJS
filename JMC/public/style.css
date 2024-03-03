@@ -1,0 +1,71 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    position: relative;
+    font-family: 'Roboto';
+}
+
+a:visited{
+    color: blue;
+}
+
+.footer{
+      text-align: center;
+      background-color: black;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      color: white;
+}
+img{
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+}
+.image {
+    text-align: center ;
+}
+.services{
+    display: flex;
+}
+
+.service1,.service2{
+    
+    text-align: center;
+}
+
+.service1 img:hover,.service2 img:hover{
+      transform: scale(1.1);
+}
+
+.form{
+    position: relative;
+    background-color: gray;
+    border-radius: 25px;
+    margin: 0 25%;
+    color: white;
+    text-align: center;
+    top : 50px;
+    
+}
+input,textarea,button{
+    margin: 5px auto;
+}
+.email{
+    width: 39%;
+}
+textarea{
+    margin-left: 14%;
+}
+.button{
+         width: 38%;
+         margin-left: 15%;
+}
+
+.infos{
+     text-align: center;
+     margin-top: 20%;
+}
